@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Lobster;
+    src: url(../../polices/Lobster/Lobster-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;/*marge intérieur*/
+    overflow-x: hidden; /*masquer la barre de navigation verticale */
+   
+}
+
+
+.imagebas{
+    /*propriété  flex pour centrer les éléments */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* ----------------------------------- */
+    padding: 15px;
+}
+.cocogrillimage{
+    width: 99vw; /*100vw (viewport width)=100% de la largeur de l'écran*/
+    height: 600px;
+}
+.restau{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}

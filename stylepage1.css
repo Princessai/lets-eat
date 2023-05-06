@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Lobster;
+    src: url(./polices/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(./polices/Lobster/Lobster-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(./polices/Lobster/Lobster-Regular.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(./polices/Kanit/Kanit-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(./polices/Pacifico/Pacifico-Regular.ttf);
+}
+
+
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+background-image: url(./images/background/1.png);
+}
+
+header{
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/images_logo/couv.jpeg);
+height: 657px;
+background-size: cover;
+background-position: center;
+font-family: kanit, sans-serif;
+}
+
+.headerfix{
+    position: fixed;
+    padding-left: 592px;
+    background-color: rgba(95, 91, 91, 0.438);
+}
+
+.nomsite a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: inherit;
+    font-family: Lobster, sans-serif;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slogan{
+    color: #fff;
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 36%;
+}
+
+h1{
+    margin-top: 30px;
+    font-family: Kanit, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.page1{
+    height: 400px;
+    width: 90%;
+    background-color: #fff;
+    margin-left: 67px;
+    border-radius: 50px;
+}
+
+.page1 .page1_gauche{
+    float: left;
+    width: 45%;
+}
+
+.page1 .page1_droite{
+    float: right;
+    width: 45%;
+    text-align: justify;
+    padding-top: 140px;
+    padding-right: 70px;
+    font-family: pacifico, sans-serif;
+}
+
+.bonplans img{
+    padding: 3px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 3px dashed #000;
+}
+
+.bouton .btn1{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-left: 165px;
+    padding: 0px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bouton .btn2{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-left: 300px;
+    padding: 0px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.bouton .btn3{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-left: 300px;
+    padding: 0px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bouton a:hover{
+    background-color:  rgb(230, 160, 76);
+    color: #fff;
+}
+
+.banner img{
+    margin-left: 17px;
+    margin-top: 50px;
+    height: 200px;
+    width: 97%;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.page2{
+    height: 400px;
+    width: 90%;
+    background-color: #fff;
+    margin-left: 67px;
+    border-radius: 50px;
+}
+
+.page2 img{
+    height: 50px;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.page2 .page2_gauche{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.page2 .page2_droite{
+    width: 45%;
+    float: right;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: larger;
+}
+
+
+p{
+    background-color: #fff;
+    border-radius: 50px;
+    word-spacing: 10px;
+    color: black;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+
+
